@@ -16,7 +16,6 @@ body {
 }
 .navigation{
     justify-content: space-between;
-
 }
 .logo{
     font-size: 24px;
@@ -33,11 +32,23 @@ body {
 ul{
     list-style-type: none;
 }
-.top-content{
-    
-}
 .navigation, .top-content, .information, .testimonials, .bottom-content, .footer{
     display: flex;
     padding: 0px 20vh;
     align-items: center;
+}
+.top-content{
+    flex:1;
+}
+.top-text{
+    flex:1;
+}
+.top-title{
+    font-size: 48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+}
+.header-image{
+    flex:1;
+    background-color: grey;
 }
