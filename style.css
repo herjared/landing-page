@@ -23,4 +23,5 @@ ul{
 .navigation, .top-content, .information, .testimonials, .bottom-content, .footer{
     display: flex;
     padding: 0px 20vh;
+    align-items: center;
 }
