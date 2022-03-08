@@ -10,7 +10,12 @@ body {
     height:100vh;
     margin:0px;
 }
-.navigation, .top-content{
+.navigation, .top-content, .information, .testimonials, .bottom-content, .footer{
+    display: flex;
+    padding: 0px 20vh;
+    align-items: center;
+}
+.navigation, .top-content, .footer{
     background-color:#1F2937;
     color:white;
 }
@@ -32,15 +37,8 @@ body {
 ul{
     list-style-type: none;
 }
-.navigation, .top-content, .information, .testimonials, .bottom-content, .footer{
-    display: flex;
-    padding: 0px 20vh;
-    align-items: center;
-}
-.top-content{
-    flex:1;
-}
-.top-text{
+
+.top-content,.top-text{
     flex:1;
 }
 .top-title{
@@ -51,4 +49,11 @@ ul{
 .header-image{
     flex:1;
     background-color: grey;
+}
+button{
+    background-color: #3882f6;
+    color:white;
+    padding:10px 20px;
+    border-radius: 8px;
+    border:none;
 }
