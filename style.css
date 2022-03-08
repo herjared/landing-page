@@ -1,7 +1,14 @@
 body {
     display:flex;
-    justify-content: space-between;
     flex-direction: column;
     height:100vh;
+}
+.navigation, .top-content{
+    background-color:#1F2937;
+    color:white;
+}
+ .top-content, .information, .testimonials, .bottom-content{
+    display:flex;
+    flex:1;
 }
 
