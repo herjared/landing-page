@@ -9,13 +9,18 @@ body {
     color:white;
 }
 .navigation{
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
+    
 }
 .right-links{
     display:flex;
 }
 ul{
     list-style-type: none;
+}
+.top-content{
+    
+}
+.navigation, .top-content, .information, .testimonials, .bottom-content, .footer{
+    display: flex;
+    padding: 0px 20vh;
 }
