@@ -2,13 +2,20 @@ body {
     display:flex;
     flex-direction: column;
     height:100vh;
+    margin:0px;
 }
 .navigation, .top-content{
     background-color:#1F2937;
     color:white;
 }
- .top-content, .information, .testimonials, .bottom-content{
+.navigation{
     display:flex;
-    flex:1;
+    justify-content:space-between;
+    align-items: center;
 }
-
+.right-links{
+    display:flex;
+}
+ul{
+    list-style-type: none;
+}
