@@ -10,7 +10,7 @@ body {
     height:100vh;
     margin:0px;
 }
-.top-content, .information, .testimonials, .bottom-content, .footer{
+.top-content, .information, .testimonials, .bottom-content{
     padding: 5vh 20vh;
     align-items: center;
 }
@@ -78,7 +78,7 @@ button{
 }
 .information-cards{
     display:flex;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
     gap:16px;
 }
 .info{
@@ -87,3 +87,22 @@ button{
     flex-direction: column;
     gap:8px;
 }
+
+/*Testimonials*/
+.testimonials{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+.quotes{
+    font-size: 36px;
+    font-style:italic;
+    font-weight: lighter;
+}
+.originator{
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
