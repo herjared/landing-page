@@ -10,17 +10,21 @@ body {
     height:100vh;
     margin:0px;
 }
-.navigation, .top-content, .information, .testimonials, .bottom-content, .footer{
-    display: flex;
-    padding: 0px 20vh;
+.top-content, .information, .testimonials, .bottom-content, .footer{
+    padding: 5vh 20vh;
     align-items: center;
 }
 .navigation, .top-content, .footer{
     background-color:#1F2937;
     color:white;
 }
+
+/* Navigation*/
 .navigation{
     justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding:1vh 20vh;
 }
 .logo{
     font-size: 24px;
@@ -38,17 +42,18 @@ ul{
     list-style-type: none;
 }
 
-.top-content,.top-text{
+/*Top-Content*/
+.top-content{
     flex:1;
+    display: flex;
 }
 .top-title{
     font-size: 48px;
     font-weight:bolder;
     color:#F9FAF8;
 }
-.header-image{
+.header-image, .top-text{
     flex:1;
-    background-color: grey;
 }
 button{
     background-color: #3882f6;
@@ -56,4 +61,29 @@ button{
     padding:10px 20px;
     border-radius: 8px;
     border:none;
+}
+
+/*Information*/
+.information{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.information-header{
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
+    margin-bottom: 32px;
+}
+.information-cards{
+    display:flex;
+    flex-wrap:wrap;
+    gap:16px;
+}
+.info{
+    max-width: 200px;
+    display:flex;
+    flex-direction: column;
+    gap:8px;
 }
