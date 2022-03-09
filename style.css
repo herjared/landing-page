@@ -56,8 +56,14 @@ ul{
     font-weight:bolder;
     color:#F9FAF8;
 }
-.header-image, .top-text{
+.top-text{
     flex:1;
+    padding-right: 36px;
+}
+.header-image{
+    max-width: 500px;
+    flex: 1 0 auto;
+    border-radius: 8px;
 }
 .top-button{
     border:none;
@@ -94,6 +100,14 @@ button{
     display:flex;
     flex-direction: column;
     gap:8px;
+}
+.info img{
+    border-radius: 8px;
+    border-color: #3882f6;
+    border-width: 5px;
+    border-style:solid;
+    max-width:200px;
+    max-height:200px;
 }
 
 /*Testimonials*/
