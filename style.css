@@ -11,11 +11,11 @@ body {
     margin:0px;
 }
 .top-content, .bottom-content{
-    padding: 40px 20vh;
+    padding: 40px 25vh;
     align-items: center;
 }
 .testimonials, .information{
-    padding: 80px 25vh;
+    padding: 40px 40vh;
     align-items: center;
 }
 .navigation, .top-content, .footer{
@@ -28,7 +28,7 @@ body {
     justify-content: space-between;
     display: flex;
     align-items: center;
-    padding:1vh 20vh;
+    padding:1vh 25vh;
 }
 .logo{
     font-size: 24px;
@@ -59,12 +59,15 @@ ul{
 .header-image, .top-text{
     flex:1;
 }
+.top-button{
+    border:none;
+    font-weight: bolder;
+}
 button{
     background-color: #3882f6;
     color:white;
     padding:10px 20px;
     border-radius: 8px;
-    border:none;
 }
 
 /*Information*/
@@ -84,6 +87,7 @@ button{
     display:flex;
     flex-wrap:nowrap;
     gap:16px;
+    color: #1F2937;
 }
 .info{
     max-width: 200px;
@@ -95,7 +99,7 @@ button{
 /*Testimonials*/
 .testimonials{
     display: flex;
-    
+    color: #1F2937;
     flex-direction: column;
     background-color: #E5E7EB;
 }
@@ -109,4 +113,23 @@ button{
     font-weight: bold;
     font-size: 24px;
 }
+
+/* Bottom Content*/
+.bottom-info{
+    background-color: #3882f6;
+    border-radius: 8px;
+    color:#E5E7EB;
+    display:flex;
+    padding:32px;
+    align-items: center;
+    justify-content: space-around;
+}
+.bottom-title{
+    font-weight: bold;
+}
+.bottom-button{
+    border: 1px solid #E5E7EB;
+}
+
+
 
