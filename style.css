@@ -10,10 +10,6 @@ body {
     height:100vh;
     margin:0px;
 }
-.top-content, .bottom-content{
-    padding: 40px 25vh;
-    align-items: center;
-}
 .testimonials, .information{
     padding: 60px 30vh;
     align-items: center;
@@ -50,6 +46,8 @@ ul{
 .top-content{
     flex:2;
     display: flex;
+    padding: 40px 25vh;
+    align-items: center;
 }
 .top-title{
     font-size: 48px;
@@ -109,6 +107,7 @@ button{
     border-style:solid;
     max-width:200px;
     max-height:200px;
+    margin-bottom: 16px;
 }
 
 /*Testimonials*/
@@ -122,14 +121,20 @@ button{
     font-size: 36px;
     font-style:italic;
     font-weight: lighter;
+    padding-bottom: 15px;
 }
 .originator{
     align-self: flex-end;
     font-weight: bold;
     font-size: 24px;
+    padding-right:20px;
 }
 
 /* Bottom Content*/
+.bottom-content{
+    padding: 40px 50vh;
+    align-items: center;
+}
 .bottom-info{
     background-color: #3882f6;
     border-radius: 8px;
@@ -138,6 +143,7 @@ button{
     padding:32px;
     align-items: center;
     justify-content: space-around;
+    margin: 50px 0px;
 }
 .bottom-title{
     font-weight: bold;
