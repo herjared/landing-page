@@ -10,8 +10,12 @@ body {
     height:100vh;
     margin:0px;
 }
-.top-content, .information, .testimonials, .bottom-content{
-    padding: 5vh 20vh;
+.top-content, .bottom-content{
+    padding: 40px 20vh;
+    align-items: center;
+}
+.testimonials, .information{
+    padding: 80px 25vh;
     align-items: center;
 }
 .navigation, .top-content, .footer{
@@ -44,7 +48,7 @@ ul{
 
 /*Top-Content*/
 .top-content{
-    flex:1;
+    flex:2;
     display: flex;
 }
 .top-title{
@@ -91,7 +95,7 @@ button{
 /*Testimonials*/
 .testimonials{
     display: flex;
-    flex:1;
+    
     flex-direction: column;
     background-color: #E5E7EB;
 }
